@@ -6,8 +6,8 @@ Pre-trained modelling are also implemented.
 Libraries used are sklearn, tensorflow, nltk, textblob.
 
 # NLP Programs
-# 1. Sentiment Analysis
-# 2. Auto-Correct
-# 3. Next Word Prediction
-# 4. Word Embedding 
-# 5. Text Summarization
+### 1. Sentiment Analysis
+### 2. Next Word Prediction
+### 3. AutoCorrect
+### 4. Word Embedding 
+### 5. Text Summarization
