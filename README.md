@@ -9,5 +9,5 @@ Libraries used are sklearn, tensorflow, nltk, textblob.
 ### 1. Sentiment Analysis
 ### 2. Next Word Prediction
 ### 3. AutoCorrect
-### 4. Word Embedding 
-### 5. Text Summarization
+### 4. Text Summarization
+### 5. Duplicate Question Identification
