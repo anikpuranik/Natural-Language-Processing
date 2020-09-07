@@ -8,7 +8,7 @@ from sklearn import naive_bayes, linear_model, svm
 from sklearn.metrics import confusion_matrix
 
 # loading dataset
-dataset = pd.read_csv('/Users/aayushpuranik/.spyder-py3/dataset/Sentiments.csv', delimiter='\t')
+dataset = pd.read_csv('Sentiments.csv', delimiter='\t')
 labels = dataset.Labels
 reviews = dataset.Reviews
 
