@@ -63,11 +63,40 @@ def confusion_martices(y, y_pred, dataset_name, model_name) :
         y_pred = confusion_matrix(y, y_pred)
         print("Result for "+dataset_name+" and "+model_name+":\n", 
               y_pred,"\n",
-              "Correct prediction are:",sum(y_pred.diagonal()))
+              "Correct prediction are:",sum(y_pred.diagonal()),"\n")
         
 for j,algorithm in  enumerate(["logistic regression","naive bayes","svm"]):
     confusion_martices(y_tfidf[j], y_test_tfidf, 'tf-idf', algorithm)
     confusion_martices(y_cv[j], y_test_cv, 'cv', algorithm)
         
 
-
+'''Result for tf-idf and logistic regression:
+ [[59 17]
+ [45 79]] 
+ Correct prediction are: 138
+ 
+Result for cv and logistic regression:
+ [[56 12]
+ [47 85]] 
+ Correct prediction are: 141
+ 
+Result for tf-idf and naive bayes:
+ [[86 16]
+ [18 80]] 
+ Correct prediction are: 166
+ 
+Result for cv and naive bayes:
+ [[84 17]
+ [19 80]] 
+ Correct prediction are: 164
+ 
+Result for tf-idf and svm:
+ [[88 19]
+ [16 77]] 
+ Correct prediction are: 165
+ 
+Result for cv and svm:
+ [[85 24]
+ [18 73]] 
+ Correct prediction are: 158
+ '''
