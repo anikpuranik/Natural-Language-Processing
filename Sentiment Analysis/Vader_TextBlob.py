@@ -28,3 +28,8 @@ print(sum(vader_predictions==dataset.Labels))
 
 textblob_predictions = np.array(textblob_score > 0.5, dtype=int)
 print(sum(textblob_predictions==dataset.Labels))
+
+'''
+Result for VADER :  775
+Result for TextBlob :  679
+'''
