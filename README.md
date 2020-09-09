@@ -11,3 +11,4 @@ Libraries used are sklearn, tensorflow, nltk, textblob.
 ### 3. AutoCorrect
 ### 4. Text Summarization
 ### 5. Duplicate Question Identification
+### 6. Toxic Comment Classification
