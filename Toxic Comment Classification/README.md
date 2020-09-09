@@ -2,7 +2,7 @@
 To maintain the security and interest of people for open discussion negative and abusive comments must not be published. To check and limit such tyoe of comments
 filtering process is used. 
 
-This problem is Kaggle challenge:
+This problem is Kaggle challenge and dataset can be obtained from below:
 
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 
