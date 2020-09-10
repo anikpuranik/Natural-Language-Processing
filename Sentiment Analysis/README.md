@@ -6,7 +6,7 @@ Here, few techniques for detecting sentiment are explained
 
 ### 1. Rule-based Apporach: 
 This type of Sentiment analysis is performed by assigning sentiment to each word.
-and than cummulative score is added for each of the word to infer whether it is positive or negative. VADER and TextBlob uses rule-based approach.
+and than cummulative score is added for each of the word to infer whether it is positive or negative. VADER uses rule-based approach.
 
 Advantages:
 1. This approach is better for dataset of small size.
