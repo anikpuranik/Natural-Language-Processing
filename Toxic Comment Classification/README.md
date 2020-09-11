@@ -1,5 +1,5 @@
 ## Toxic Comment Classification
-To maintain the security and interest of people for open discussion negative and abusive comments must not be published. To check and limit such tyoe of comments
+To maintain the security and interest of people for open discussion negative and abusive comments must not be published. To check and limit such type of comments
 filtering process is used. 
 
 This problem is Kaggle challenge and dataset can be obtained from below:
