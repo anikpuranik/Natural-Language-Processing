@@ -21,3 +21,4 @@ This uses Seq2Seq models using neural network where instead of multiple networks
 Here, two scripts are present for the machine translation using Neural Network technique. 
 1. LSTM Netowrk: This script uses the LSTM and Bidirectional LSTM model for conversion of German to English and the model is evaluated using actual results.
 2. Pre-trained Modle: Here, we have implemented Google NMT that is an inbuilt as a part of TextBlob library. googletrans can also be used for the machine translation. An API is created using Streamlit and the demo is shown here (https://www.youtube.com/watch?v=C0Cvt2SihWQ)
+3. LSTM Pre-trained: This is just a comparison script for the evaluation between Script1 and Script2.
