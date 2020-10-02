@@ -20,8 +20,7 @@ def translation():
     st.title("Language Translation")
     message = st.text_area("Enter the text to be translated")
     
-    st.text(languages)
-    target_language = st.text_input("Enter the target language")
+    target_language = st.selectbox(label="Enter the target language", options=languages)
     
     if st.button("translate"):
         try:
