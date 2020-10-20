@@ -4,23 +4,21 @@ and many more places. Thus, it forms very important part of any company.
 
 Here, few techniques for detecting sentiment are explained
 
-### 1. Rule-based Apporach: 
-This type of Sentiment analysis is performed by assigning sentiment to each word.
-and than cummulative score is added for each of the word to infer whether it is positive or negative. VADER uses rule-based approach.
+### 1. Lexicon Apporach: 
+This type of Sentiment analysis is performed by assigning score to each word.
+and than cummulative score is added for each of the word to infer whether it is positive or negative. VADER uses rule-based or lexicon approach.
 
 Advantages:
-1. This approach is better for dataset of small size.
-2. It does not required training time and can be implemented using library.
+1. This approach is good for small as well as large dataset.
+2. It is quick to implement. 
 
 Disadvantages:
 1. It is not good for determining mixed sense sentences. E.g. Irony, Sarcasm.
 2. Although, already trained on multiple words, any out of vocabulary word is ignored. E.g. Typo's, social media trends.
-3. It can not be trained to understand the word based on the context. E.g. he was happy vs he is happy provide the same result.
-4. Change in word order provide the same result, so meaning of sentence is hard to obtain. E.g. playing not sleeping vs sleeping not playing.
 
 ### 2. Machine Learning: 
 Instead of taking word as an individual, here complete sentence is taken into account and thus each word within can be trained differently. Multiple algorithm can
-be used and tuning is easier. With good amount of training data it outperform Rule-based Approach.
+be used and tuning is easier.
 
 Advantages:
 1. It is able to detect sentence with mixed sense (E.g. not bad, too good).
